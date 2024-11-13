@@ -19,7 +19,7 @@ namespace rum_rum
         {
             InitializeComponent();
             ardPort = new SerialPort();
-            ardPort.PortName = "COM3";
+            ardPort.PortName = "COM5";
             ardPort.BaudRate = 9600;
             ardPort.DataBits = 8;
             ardPort.ReadTimeout = 500;
